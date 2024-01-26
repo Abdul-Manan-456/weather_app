@@ -26,7 +26,6 @@ const WeeklyForcast = () => {
       cloud: day?.day?.daily_chance_of_rain,
     }
   })
-  // console.log("forecast--------------", weeklyForecast)
   const styles = {
     fontWeight: '600',
     display: 'flex',
@@ -43,8 +42,8 @@ const WeeklyForcast = () => {
 
   return (
     <main>
-      <div className='flex flex-col items-center xl:p-4 p-2 md:mt-0 mt-8 box-border'>
-        <h4 className='primaryTextH4 xl:mb-3 mb-1'>Weekly Forcast</h4>
+      <div className='flex flex-col items-center xl:p-3 p-2 md:mt-0 mt-6 box-border'>
+        <h4 className='primaryTextH4 xl:mb-0 mb-1'>Weekly Forcast</h4>
         {/* First Data */}
         {weeklyForecast.map((forcast, index) => {
           const strLeng = forcast.cond.length;
