@@ -1,6 +1,6 @@
 "use client";
 import { Inter } from "next/font/google";
-import Weather from "./Weather";
+import Weather from "../components/Typography/Weather";
 import React, { createContext, useEffect, useReducer } from "react";
 const inter = Inter({ subsets: ["latin"] });
 import { WeatherProvider } from "../store/WeatherContext";
