@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const WEATHER_API_KEY = "143147f285694383850112641241601";
-const WEATHER_API_URL = "http://api.weatherapi.com/v1/forecast.json";
+const WEATHER_API_URL = "//api.weatherapi.com/v1/forecast.json";
 interface CoordProps {
   lat: number| null;
   long: number| null;

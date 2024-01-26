@@ -50,8 +50,6 @@ const Weather = () => {
             </div>
           </div>)
         }
-
-
         {
           //  data => null isLoading => true
           state.isLoading && state.data == null && (<div className=" flex flex-col text-slate-300 items-center justify-center h-96">
